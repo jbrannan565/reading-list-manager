@@ -75,7 +75,7 @@ function format_books() {
 			$html .= '. <a style="text-decoration: none;" href="';
 			$html .= get_permalink( $book->ID ) . '">' . $book->post_title;
 			$html .= '</a> <small>' . $author ;
-			$html .= '</small> ';
+			$html .= '</small><br>';
 			if ( $rating['rating'] && $rating['rating_count']) {
 				for ( $i = round( $rating['rating'] ); $i > 0; $i-- )
 					$html .= '<span class="fa fa-star checked"></span>';
