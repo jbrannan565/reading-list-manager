@@ -1,0 +1,33 @@
+.f_button {
+    text-decoration: none !important;
+    color: white;
+    background-color: rgb(0, 115, 170);
+    padding: 1px 6px;
+    border-radius: 4px;
+}
+.f_button:hover {
+    color: white;
+    background-color: crimson;
+}
+#mp_excerpt {
+    padding-left: 40px;
+}
+.mp_book_form {
+    width: 600px;
+}
+#form-input{
+    margin-bottom: 10px;
+}
+#form-input input {
+    padding: 0;
+    width: 400px;
+    float: right;
+}
+.checked {
+    color: orange;
+}
+.mp_book {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+    transition: 0.3s !important;
+    padding: 10px;
+}
