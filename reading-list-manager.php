@@ -5,7 +5,7 @@ Description: A simple plugin for managing reading lists
 Version: 0.1.0
 Author: Jared Brannan
 Text Domain: reading-list-manager
-Domain Path: /reading_list_manager
+Domain Path: /reading-list-manager
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -107,8 +107,8 @@ function add_custom_viewer_to_query( $query ) {
 // register style sheets
 add_action( 'wp_enqueue_scripts', 'assets' );
 function assets() {
-	wp_register_style( 'learn_plugin', plugins_url('learn_plugin/styles.css') );
-	wp_enqueue_style( 'learn_plugin' );
+	wp_register_style( 'reading-list-manager', plugins_url('reading-list-manager/styles.css') );
+	wp_enqueue_style( 'reading-list-manager' );
 }
 
 // gets book rating from google books api
